@@ -1,1 +1,21 @@
+body {
+    text-align: center;
+}
 
+#resultID {
+    width: 100px;
+}
+
+button {
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 163, 26);
+    color: rgb(27, 27, 27);
+    margin: 2px;
+    padding: 10px;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: rgb(255, 179, 65);
+}

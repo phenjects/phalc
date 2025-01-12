@@ -17,6 +17,6 @@ console.log(numberButtons[1]);
 
 numberButtons.forEach((numberBtn) => {
   numberBtn.onclick = function () {
-    console.log("penis");
+    window.prompt(numberBtn);
   };
 });

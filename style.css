@@ -13,9 +13,13 @@ button {
     color: rgb(27, 27, 27);
     margin: 2px;
     padding: 10px;
+    transition: 0.2s;
 }
 
 button:hover {
-    transition: 0.2s;
-    background-color: rgb(255, 179, 65);
+    background-color: rgb(255, 191, 96);
+}
+
+button:active  {
+    background-color: rgb(197, 141, 57);
 }

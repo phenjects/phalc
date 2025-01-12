@@ -1,14 +1,20 @@
-const numbers = [
-    { one: document.getElementById("1") },
-    { two: document.getElementById("2") },
-    { three: document.getElementById("3") },
-    { four: document.getElementById("4") },
-    { five: document.getElementById("5") },
-    { six: document.getElementById("6") },
-    { seven: document.getElementById("7") },
-    { eight: document.getElementById("8") },
-    { nine: document.getElementById("9") },
-    { zero: document.getElementById("0") }
+const numberButtons = [
+document.getElementById("1") ,
+document.getElementById("2") ,
+document.getElementById("3") ,
+document.getElementById("4") ,
+document.getElementById("5") ,
+document.getElementById("6") ,
+document.getElementById("7") ,
+document.getElementById("8") ,
+document.getElementById("9") ,
+document.getElementById("0")
 ];
 
-console.log(numbers);
+const numberValues = "1234567890";
+
+console.log(numberButtons[1]);
+
+numberButtons.onclick = function() {
+    console.log("penis")
+}

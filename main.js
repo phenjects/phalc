@@ -1,4 +1,4 @@
-// INFO: the big bad boy (just a simple array to get all the main phalculator buttons.)
+// INFO: the big bad boy (just a simple array to get all the main phalculator buttons)
 const numberButtons = [
   document.getElementById("1"),
   document.getElementById("2"),

@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: rgb(27, 27, 27);
 }
 
 #resultID {
@@ -23,3 +24,7 @@ button:hover {
 button:active  {
     background-color: rgb(197, 141, 57);
 }
+
+#0 {
+    padding-right: 0.5rem;
+} 

@@ -1,25 +1,26 @@
 body {
-    text-align: center;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
 }
 
 #resultID {
-    width: 100px;
+  width: 100px;
 }
 
 button {
-    border-width: 0;
-    border-radius: 5px;
-    background-color: rgb(255, 163, 26);
-    color: rgb(27, 27, 27);
-    margin: 2px;
-    padding: 10px;
-    transition: 0.2s;
+  border-width: 0;
+  border-radius: 5px;
+  background-color: rgb(255, 163, 26);
+  color: rgb(27, 27, 27);
+  margin: 2px;
+  padding: 10px;
+  transition: 0.2s;
 }
 
 button:hover {
-    background-color: rgb(255, 191, 96);
+  background-color: rgb(255, 191, 96);
 }
 
-button:active  {
-    background-color: rgb(197, 141, 57);
+button:active {
+  background-color: rgb(197, 141, 57);
 }

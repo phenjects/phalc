@@ -11,7 +11,7 @@ button {
   border-width: 0;
   border-radius: 5px;
   background-color: rgb(255, 163, 26);
-  color: rgb(27, 27, 27);
+  color: rgb(10, 10, 10);
   margin: 2px;
   padding: 10px;
   transition: 0.2s;
@@ -23,4 +23,20 @@ button:hover {
 
 button:active {
   background-color: rgb(197, 141, 57);
+}
+
+#3 {
+  margin-left: 20000px;
+}
+
+.phalcboxCLASS {
+  width: 140px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: black;
+}
+
+.centerDIV {
+  display: flex;
+  justify-content: center;
 }

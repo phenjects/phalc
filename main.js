@@ -31,7 +31,7 @@ let numberOutput;
 // INFO: gets the inner HTML values of each button for the phalculator output
 numberButtons.forEach((numberBtn) => {
   numberBtn.onclick = function () {
-    numberValues = numberValues.concat(numberBtn.innerHTML);
+    numberValues = numberValues.concat(numberBtn.id);
     phalcResult.value = numberValues;
   };
 });
